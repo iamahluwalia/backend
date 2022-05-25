@@ -177,7 +177,7 @@ router.post("/saveotp", async (req, res) => {
             to: req.body.email,
             subject: 'Verify your Email ID',
             html: `<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-        
+
             <html xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml">
             <head>
             <!--[if gte mso 9]><xml><o:OfficeDocumentSettings><o:AllowPNG/><o:PixelsPerInch>96</o:PixelsPerInch></o:OfficeDocumentSettings></xml><![endif]-->
@@ -355,10 +355,7 @@ router.post("/saveotp", async (req, res) => {
             <!--[if (!mso)&(!IE)]><!-->
             <div style="border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:5px; padding-bottom:5px; padding-right: 0px; padding-left: 0px;">
             <!--<![endif]-->
-            <div align="left" class="img-container left fixedwidth" style="padding-right: 0px;padding-left: 0px;">
-            <!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr style="line-height:0px"><td style="padding-right: 0px;padding-left: 0px;" align="left"><![endif]--><a href="https://www.levance.in"><img alt="" border="0" class="left fixedwidth" src="https://res.cloudinary.com/dufe633ww/image/upload/v1610273341/levance-2_i4wao7.png" style="text-decoration: none; -ms-interpolation-mode: bicubic; height: auto; border: 0; width: 100%; max-width: 210px; display: block;" title="" width="210"/></a>
-            <!--[if mso]></td></tr></table><![endif]-->
-            </div>
+            
             <table border="0" cellpadding="0" cellspacing="0" class="divider" role="presentation" style="table-layout: fixed; vertical-align: top; border-spacing: 0; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; min-width: 100%; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;" valign="top" width="100%">
             <tbody>
             <tr style="vertical-align: top;" valign="top">
@@ -419,9 +416,7 @@ router.post("/saveotp", async (req, res) => {
             <!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-right: 30px; padding-left: 20px; padding-top: 20px; padding-bottom: 20px; font-family: Tahoma, sans-serif"><![endif]-->
             <div style="color:#191919;font-family:Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;line-height:1.2;padding-top:20px;padding-right:30px;padding-bottom:20px;padding-left:20px;">
             <div style="line-height: 1.2; font-size: 12px; color: #191919; font-family: Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif; mso-line-height-alt: 14px;">
-            <p style="font-size: 22px; line-height: 1.2; word-break: break-word; text-align: left; mso-line-height-alt: 26px; margin: 0;"><span style="font-size: 22px;"><span style="font-size: 14px;">Looking forward to see you on board at Levance - an esteem community for creators across various social platforms.</span></span></p>
-            <p style="font-size: 22px; line-height: 1.2; word-break: break-word; text-align: left; mso-line-height-alt: 26px; margin: 0;"><span style="font-size: 22px;"><br/><span style="font-size: 14px;">If this wasn’t you or in case of any technical difficulty do drop us a mail at: <a href="mailto:contact@levance.in">contact@levance.in</a></span></span></p>
-            <p style="font-size: 22px; line-height: 1.2; word-break: break-word; text-align: left; mso-line-height-alt: 26px; margin: 0;"><span style="font-size: 22px;"><br/><span style="font-size: 14px;">Thanks!</span><br/><span style="font-size: 14px;">Team Levance</span><br/></span></p>
+            
             </div>
             </div>
             <!--[if mso]></td></tr></table><![endif]-->
@@ -477,14 +472,9 @@ router.post("/saveotp", async (req, res) => {
             </table>
             <!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; font-family: Tahoma, sans-serif"><![endif]-->
             <div style="color:#ffffff;font-family:Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;line-height:1.2;padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px;">
-            <div style="line-height: 1.2; font-size: 12px; font-family: Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif; color: #ffffff; mso-line-height-alt: 14px;">
-            <p style="font-size: 12px; line-height: 1.2; text-align: center; word-break: break-word; font-family: Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif; mso-line-height-alt: 14px; margin: 0;"><span style="color: #555555; font-size: 12px;">If you have any questions, feel free to email us at: <a href="mailto:contact@levance.in">contact@levance.in</a></span></p>
+            <div style="line-height: 1.2; font-size: 12px; font-family: Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif; color: #ffffff; mso-line-height-alt: 14px;">   
             <p style="font-size: 12px; line-height: 1.2; text-align: center; word-break: break-word; font-family: Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif; mso-line-height-alt: 14px; margin: 0;"> </p>
-            <p style="font-size: 12px; line-height: 1.2; text-align: center; word-break: break-word; font-family: Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif; mso-line-height-alt: 14px; margin: 0;"><span style="color: #555555; font-size: 12px;">All rights reserved © 2021 <a data-saferedirecturl="https://www.google.com/url?q=http://levance.in&amp;source=gmail&amp;ust=1610018132030000&amp;usg=AFQjCNEj0BDiaiUCjK5YFqXoucDtw7lzRA" href="http://levance.in/" rel="noopener" style="color: #0368c8;" target="_blank">levance.in,</a></span></p>
-            <p style="font-size: 12px; line-height: 1.2; text-align: center; word-break: break-word; font-family: Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif; mso-line-height-alt: 14px; margin: 0;"> </p>
-            <p style="font-size: 12px; line-height: 1.2; text-align: center; word-break: break-word; font-family: Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif; mso-line-height-alt: 14px; margin: 0;"><span style="color: #555555; font-size: 12px;"><a href="http://levance.in/unsubscribeEmail/{req.body.email}">Unsubscribe here</a></span></p>
-            <p style="font-size: 12px; line-height: 1.2; text-align: center; word-break: break-word; font-family: Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif; mso-line-height-alt: 14px; margin: 0;"> </p>
-            <p style="font-size: 12px; line-height: 1.2; text-align: center; word-break: break-word; font-family: Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif; mso-line-height-alt: 14px; margin: 0;"><span style="color: #555555; font-size: 12px;"><a href="https://levance.in/termsandconditions">Terms of use</a> <strong>|</strong> <a href="https://levance.in/privacypolicy">Privacy Policy</a></span></p>
+            <p style="font-size: 12px; line-height: 1.2; text-align: center; word-break: break-word; font-family: Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif; mso-line-height-alt: 14px; margin: 0;"><span style="color: #555555; font-size: 12px;">All rights reserved © 2022 RahulCorp</span></p>
             <p style="font-size: 12px; line-height: 1.2; text-align: center; word-break: break-word; font-family: Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif; mso-line-height-alt: 14px; margin: 0;"> </p>
             </div>
             </div>
@@ -598,45 +588,5 @@ router.post("/verifyotp", async (req, res) => {
     }
 })
 
-router.post("/forgotpasswordotp",(req,res)=>{
-    if(req.body.email=="")
-    return res.status(400).json({"error":"error"})
-    User.findOne({email:req.body.email},(err,user)=>{
-        
-        if(err)
-        return res.json({"error":"Error occurred"})
-        if(!user)
-        return res.json({"error":"Email ID not found"})
-    var transporter = nodemailer.createTransport({
-        host: 'smtp.zoho.in',
-        port: 465,
-        secure:true,
-      auth: {
-        user: decrypt({
-            "iv": "1aa1c640d2cc5669801641de490b0e3d",
-            "content": "72a6227a4e458d8a37c5242847edef1b95f11d"
-        }),
-        pass: decrypt({
-            "iv": "be850fab22018f79bde19a6ffeeab927",
-            "content": "9f6b0a809338fbdc87c7a916"
-        })
-      }
-    });
-    var otp = Math.floor(Math.random()*9)+""+Math.floor(Math.random()*9)+""+Math.floor(Math.random()*9)+""+Math.floor(Math.random()*9)+""+Math.floor(Math.random()*9)+""+Math.floor(Math.random()*9);
-  transporter.sendMail(mailOptions, function(error, info){
-    if (error) {
-      console.log(error);
-      return res.json({"error":"Error occurred"})
-    } else {
-      console.log('Email sent: ' + info.response);
-      const hash = crypto.createHash('sha256').update(otp).digest('hex'); 
-      const token=jwt.sign({hash:hash,email:req.body.email},process.env.JWT_FORGOT_PASSWORD,{expiresIn: '10min'})
-      
-      return res.json({hash:hash,token:token})
-    }
-  });
-})
-}
-)
 
 module.exports = router;
