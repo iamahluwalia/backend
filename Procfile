@@ -1,1 +1,1 @@
-web: node insex.js
+web: node index.js
