@@ -81,7 +81,7 @@ router.post('/rate', async (req, res) => {
 })
 
 // branch: "",
-// endsem: null,
+// type: "",
 // query: "",
 
 router.post('/search', async (req, res) => {
@@ -93,7 +93,7 @@ router.post('/search', async (req, res) => {
         if(search_tags === "") {
             await File.find({
                 branch: req.body.branch,
-                endsem: req.body.endsem
+                type: req.body.type.toLowerCase()
             }).exec().then((arr) => {
                 // console.log(arr)
                 res.status(200).send(arr)
@@ -105,7 +105,7 @@ router.post('/search', async (req, res) => {
             search_tags_array.forEach(async (e) => {
                 await File.find({
                     branch: req.body.branch,
-                    endsem: req.body.endsem
+                    type: req.body.type.toLowerCase()
                 }).exec().then(async (f) => {
                     f.forEach(async (file, idx) => {
                         // console.log(file)

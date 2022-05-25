@@ -16,8 +16,8 @@ const userSchema = new mongoose.Schema({
         type: String,
         required: false,
     },
-    endsem: {
-        type: Boolean,
+    type: {
+        type: String,
         required: false,
     },
     code: {
